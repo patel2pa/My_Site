@@ -80,15 +80,17 @@ class Project_4 extends Component {
                          <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
                          <h3 >Aerial Multispectral Imaging</h3>
                          <h5 style={{borderBottom: '3px solid #010101'}}>Software Developer and System Engineer</h5>
-                         Utilizing the human centered process we designed 
-                         and manufactured a custom bike for a young community 
-                         member with cerebral palsy. As the building engineer I 
-                         created engineering drawing s for custom parts, fabricated 
-                         different prototypes and assembled the final design we decided on. 
-                         This 2 semester long process was one of the most rewarding educational experiences. 
-                         We were able to provide our client with beta prototype that cost less than $500 dollars. 
-                         Our prototype was then taken by my peer to be finalized 
-                         over the summer and for our client to receive his first bike. 
+                         Aerial multispectral imagery project is part of 
+                         four-semester long engineering design courses, 
+                         with an objective of providing students with knowledge of 
+                         engineering design in their respective specialties. 
+                         My specialty is focused on designing software 
+                         and embedded systems to facilitate the overarching 
+                         goal of the project, which is to develop a novel method for 
+                         assessing and monitoring the risk of eutrophication in small 
+                         bodies of water using UAV-based multispectral imagery. 
+                         I have thus far used technologies such as Pix4D, OpenDroneMap, 
+                         and python to model fertilizer runoff and analyzed chemical present in the body of water.       
                          </div>  
  
                      </Cell>

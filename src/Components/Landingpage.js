@@ -33,22 +33,39 @@ class Landingpage extends Component {
                              <hr/>
                              <div>
                                  <p  className = 'Bio'>
-                                 I am an undergraduate Engineering student with leadership experience 
-                                 and an background from a project-based, human-centered, 
-                                 and design-driven curriculum. I will graduate from James Madison University 
-                                 in May of 2020 with a B.S. in Engineering with systems focus. I have various 
-                                 experiences in project management, detailed systems analysis, customer interaction,
-                                  troubleshooting, product testing and engineering design. My experiences give me a 
-                                  hardworking and goal-oriented mindset nested in creative thinking. I aim to use my 
-                                  ills and passions to collaboratively design sustainable solutions in the engineering 
-                                  fields.  
+                                 I am an undergraduate student at James Madison University 
+                                 majoring in software and system focused engineering (ABET accredited). 
+                                 The past years of my study have been project-based, 
+                                 what is learned in the classroom is applied to real-world via projects. 
+                                 Projects such as analyzing multispectral data in 
+                                 python or building a human-powered vehicle. 
+                                 Through these comprehensive projects not only do 
+                                 I get to develop skills in my respective discipline but 
+                                 I also developed skills such as leadership, human-centered design, 
+                                 and communication. 
+                                 The program emphasizes solutions through the use of engineering design principles. 
+                                 This is done by taking into account all aspects of the problem which range from economic, 
+                                 societal to environmental by objectively analyzing 
+                                 solution through the use of tools such as AHP(analytical hierarchy process),
+                                 morphological matrix or functional point analysis. 
+                                 This is followed by in-depth discussions with the clients, team members, 
+                                 the advisors, and other stakeholders. 
+                                 The program also emphasizes the role of engineers in 
+                                 interdisciplinary projects through a sequence of classes 
+                                 that teach project management, leadership and project structures.
+                                        
                                   </p>
                                  <p>
                                  I am curious and competitive by nature and 
-                                 i am fortunate to grow up in circumstances that have allowed me to learn. 
-                                 As an earnest learner my natural habit have been to consume knowledge from multitude
-                                  sources. I have learned from mixture of online tutorials, videos, books and 
-                                  nversations with people.   
+                                 I am fortunate to grow up in circumstances 
+                                 that have allowed me to learn. As an earnest learner, 
+                                 my natural habit has been to consume knowledge from a multitude of sources. 
+                                 I have learned from a mixture of online tutorials, 
+                                 videos, books and conversations with people. 
+                                 When I am not doing school related work I like to 
+                                 teach myself new skills whether that would be building 
+                                 webs applications or designing an embedded system. 
+                                 I always working on new projects such as this website (for source code <a href = "https://github.com/patel2pa/my_site" target = "_blank">click here</a>). 
                                   </p>   
                                  </div>
                                  
@@ -56,35 +73,8 @@ class Landingpage extends Component {
                                  <div className = "social-links">
                                                                          
                                  </div>
- 
-                         </div>
 
-                         <div className = "banner-text">
-                             <h1>My Motivations</h1>
-                             <hr/>
-                             <div>
-                                 <p  className = 'Bio'>
-                                 I am an undergraduate Engineering student with leadership experience 
-                                 and an background from a project-based, human-centered, 
-                                 and design-driven curriculum. I will graduate from James Madison University 
-                                 in May of 2020 with a B.S. in Engineering with systems focus. I have various 
-                                 experiences in project management, detailed systems analysis, customer interaction,
-                                  troubleshooting, product testing and engineering design. My experiences give me a 
-                                  hardworking and goal-oriented mindset nested in creative thinking. I aim to use my 
-                                  ills and passions to collaboratively design sustainable solutions in the engineering 
-                                  fields.  
-                                  </p>
-                                 <p>
-                                 I am curious and competitive by nature and 
-                                 i am fortunate to grow up in circumstances that have allowed me to learn. 
-                                 As an earnest learner my natural habit have been to consume knowledge from multitude
-                                  sources. I have learned from mixture of online tutorials, videos, books and 
-                                  nversations with people.   
-                                  </p>   
-                                 </div>
-                                 
- 
-                                 <div className = "social-links">
+                         <div className = "social-links">
  
                                      
                                      <a href = "https://www.linkedin.com/in/parth-patel-692656178/" target = "_blank" rel = "nooperner noreferrer">
@@ -97,9 +87,11 @@ class Landingpage extends Component {
                                      </a>
  
  
-                                 </div>
+                                 </div>        
  
                          </div>
+
+                    
                  
                          <footer>
                                  <p>© 2019 Parth Patel</p>

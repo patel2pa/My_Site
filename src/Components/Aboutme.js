@@ -67,6 +67,7 @@ class Aboutme extends Component {
  
  
                                  </div>
+                                 
  
                          </div>
                  

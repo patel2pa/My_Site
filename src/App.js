@@ -17,7 +17,7 @@ render(){
             <Navigation>
                 
                 
-                <Link to="/aboutme">About me</Link>
+                
                 <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
@@ -29,7 +29,7 @@ render(){
             <Navigation>
                 
                 
-                <Link to="/aboutme">About me</Link>
+               
                 <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>

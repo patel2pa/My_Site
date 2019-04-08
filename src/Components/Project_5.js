@@ -91,15 +91,19 @@ class Project_5 extends Component {
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
                         <h3 > Human Powered Vehicle</h3>
                         <h5 style={{borderBottom: '3px solid #010101'}}>Researcher/Prototype Engineer</h5>
-                        Utilizing the human centered process we designed 
-                        and manufactured a custom bike for a young community 
-                        member with cerebral palsy. As the building engineer I 
-                        created engineering drawing s for custom parts, fabricated 
-                        different prototypes and assembled the final design we decided on. 
-                        This 2 semester long process was one of the most rewarding educational experiences. 
-                        We were able to provide our client with beta prototype that cost less than $500 dollars. 
-                        Our prototype was then taken by my peer to be finalized 
-                        over the summer and for our client to receive his first bike. 
+                        The Human Powered Vehicle was part of a 
+                        sophomore design project with an objective 
+                        of utilizing the human-centered process to design 
+                        and manufacture a custom bike for a young community 
+                        member with arthrogryposis. As a researcher,  
+                        I analyzed different components to understand their 
+                        feasibility with other components through conversation 
+                        with experts and online articles. Additionally, 
+                        I was a Prototype engineer, 
+                        I built 6 different prototypes to inspect 
+                        the subsystem facility and communicate the 
+                        design with the client. Through this project, 
+                        I learned the importance of communication and prototyping.  
                         </div>  
  
                      </Cell>

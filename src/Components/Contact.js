@@ -18,7 +18,7 @@ class Contact extends Component {
                   <h1>Parthkumar A Patel</h1>
                   <span>Contect information</span>
                   <p>Patel2pa.arvind@gmail.com</p>                  
-                  <a>website</a>
+                  <a >www.parth-patel.netlify.com</a>
                   
                 </div>
 

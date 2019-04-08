@@ -78,15 +78,16 @@ class Project_3 extends Component {
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
                         <h3 > Circuits and Instruments</h3>
                         <h5 style={{borderBottom: '3px solid #010101'}}>Mini Projects</h5>
-                        Utilizing the human centered process we designed 
-                        and manufactured a custom bike for a young community 
-                        member with cerebral palsy. As the building engineer I 
-                        created engineering drawing s for custom parts, fabricated 
-                        different prototypes and assembled the final design we decided on. 
-                        This 2 semester long process was one of the most rewarding educational experiences. 
-                        We were able to provide our client with beta prototype that cost less than $500 dollars. 
-                        Our prototype was then taken by my peer to be finalized 
-                        over the summer and for our client to receive his first bike. 
+                        I completed two projects as part of Circuit and Sensor class. 
+                        These projects help me extend my knowledge of design by 
+                        utilizing theoretical skills learned in the classroom to 
+                        building systems that have define purpose. 
+                        The first system is an electrical thermometer with components 
+                        such a Wheatstone bridge, instrument amplifier, and comparator. 
+                        The second project was a functioning microphone which can display 
+                        specific input frequency. 
+                        This system consisted of an instrument amplifier, 
+                        frequency filters and LED display.  
                         </div>  
  
                      </Cell>

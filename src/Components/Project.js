@@ -17,14 +17,14 @@ class Project extends Component {
                 {/* Project 1 */}
                 <Card shadow = {5} style = {{minWidth:  '450', margin: 'auto'}}>
                     <CardTitle style = {{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                        React-revenous</CardTitle>
+                        React JS-revenous</CardTitle>
                     <CardText>
                     Revenous is a web app for 
                     searching the endless maze of 
                     restaurants within a particular 
                     city with three criteria: best match, 
                     highest rated and most reviewed. 
-                    This app uses yelp API to find the desired restaurant. 
+                    This app uses React JS, HTML/CSS, Node JS and yelp API to find the desired restaurant. 
                     Try out the live demo.      
                     </CardText>
                     <div style = {{margin: "auto"}}>
@@ -34,7 +34,7 @@ class Project extends Component {
                     </CardActions>
                     </div>
                     <CardMenu style = {{color: '#fff'}}>  
-                        <IconButton name = "share"/>        
+                                
                     </CardMenu> 
                 </Card>
 
@@ -60,7 +60,7 @@ class Project extends Component {
                         
                     </CardActions>
                     <CardMenu style = {{color: '#fff'}}>  
-                        <IconButton name = "share"/>        
+                                
                     </CardMenu> 
                 </Card>
 
@@ -72,12 +72,12 @@ class Project extends Component {
                     </CardText>
                     <div style = {{margin: "auto"}}>
                     <CardActions border>
-                        <Button>   Github </Button>
+                        <Button href = "https://github.com/patel2pa/To_Do/tree/master/Todo_App" target = "_blank">   Github </Button>
                         <Button href = "http://patel2pa-vue-todo.netlify.com" target = "_blank">Live Demo</Button>
                     </CardActions>
                     </div>
                     <CardMenu style = {{color: '#fff'}}>  
-                        <IconButton name = "share"/>        
+                               
                     </CardMenu> 
                 </Card>
 
@@ -85,16 +85,23 @@ class Project extends Component {
                 <div className = "projects-grid">
                 <Card   shadow = {5} style = {{minWidth:  '450', margin: 'auto'}}>
                     <CardTitle style = {{color: '#fff', height: '176px', background: 'url(https://cdn01.alison-static.net/courses/423/alison_courseware_intro_423.jpg) center / cover'}}>
-                        Python Project - Titanic</CardTitle>
+                        Python Project- zombie apocalypse </CardTitle>
                     <CardText>
-                        Somthing
+                    This is a project part of the Principle Of Computing course. 
+                    The essence of the project demonstrates the application 
+                    of the search algorithm. This is done by building a zombie 
+                    apocalypse game. The game consists of zombies, human, and obstacles. 
+                    The goal is to keep the humans alive by building obstacles that inhibit 
+                    zombies movement. The zombies can move up, down, left and right. 
+                    Humans can move in any direction.     
+
                     </CardText>
 
                     <CardActions border>
-                        <Button>   Github </Button>
+                        <Button href = "https://github.com/patel2pa/Games/tree/master/Zombie%20Apocalypse" target = "_blank">   Github </Button>
                     </CardActions>
                     <CardMenu style = {{color: '#fff'}}>  
-                        <IconButton name = "share"/>        
+                               
                     </CardMenu>                    
                 </Card>
 
@@ -107,27 +114,40 @@ class Project extends Component {
                         </CardText>
                         <div style = {{margin: "auto"}}>
                         <CardActions border>
-                            <Button href = "https://github.com/patel2pa/meme_generator">   Github </Button>
+                            <Button href = "https://github.com/patel2pa/meme_generator" target = "_blank">   Github </Button>
                             <Button href = "https://meme-generator-react-app.netlify.com" target = "_blank">   Live Demo </Button>
                         </CardActions>
                         </div>
                         <CardMenu style = {{color: '#fff'}}>  
-                            <IconButton name = "share"/>        
+                                   
                         </CardMenu> 
                 </Card>
 
                 <Card shadow = {5} style = {{minWidth:  '450', margin: 'auto'}}>
                         <CardTitle style = {{color: '#fff', height: '176px', background: 'url(https://cdn01.alison-static.net/courses/423/alison_courseware_intro_423.jpg) center / cover'}}>
-                            Python - The Stock Market</CardTitle>
+                            Python Project- The Stock Market</CardTitle>
                         <CardText>
-                            Somthing
+                        This is a project that I completed in January of 2019. 
+                        It’s a numerical stock analysis using Numpy, Sklearn, Beautiful Soup and Pandas library in python. 
+                        The essence of the project is to 
+                        forecast stock prices through patterns that 
+                        might have occurred in previous years. 
+                        This is done by comparing and contrasting array 
+                        of stocks to the one that is of interest and finding a 
+                        positive correlation, using this correlation and machine 
+                        learning algorithms it might be possible to 
+                        predict the price of a stock a day or two days ahead. 
+                        This is a very rudimentary hypothesis and through several test and iterations, 
+                        it can be concluded that it is very hard to predict the future.
+                        But this script incorporates a lot of different 
+                        elements and it is a foundation for building more robust algorithms.   
                         </CardText>
 
                         <CardActions border>
-                            <Button>   Github </Button>
+                            <Button href = "https://github.com/patel2pa/Data-Analysis/blob/master/Data_Analysis/Stock_data_analysis.py" target = "_blank">   Github </Button>
                         </CardActions>
                         <CardMenu style = {{color: '#fff'}}>  
-                            <IconButton name = "share"/>        
+                                   
                         </CardMenu> 
                 </Card>
                 </div>
@@ -152,8 +172,8 @@ class Project extends Component {
                 <Tabs activeTab = {this.state.activeTab} onChange={(tabId) => this.setState ({activeTab: tabId})}
                     ripple>
 
-                    <Tab>Software Related</Tab>
-                    <Tab>Engineer projects</Tab>
+                    <Tab>Mini Projects</Tab>
+                    <Tab>Comprehensive Projects</Tab>
                     
                         </Tabs>
                     

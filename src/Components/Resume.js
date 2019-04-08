@@ -67,8 +67,8 @@ class Resume extends Component {
                         />
                         <Experience startYear = {2014}
                         endYear = {'Current'}
-                        jobName = {""}
-                        jobDescription = {""}
+                        jobName = {"Parth Prop LLC"}
+                        jobDescription = {"Assistant Manager"}
                         />
 
                         <hr style = {{boarderTop: '3px solid #e22947'}}/>
