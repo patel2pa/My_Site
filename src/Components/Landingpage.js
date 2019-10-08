@@ -34,7 +34,7 @@ class Landingpage extends Component {
                              <div>
                                  <p  className = 'Bio'>
                                  I am an undergraduate student at James Madison University 
-                                 majoring in software and system focused engineering (ABET accredited). 
+                                 majoring in engineering (ABET accredited). 
                                  The past years of my study have been project-based, 
                                  what is learned in the classroom is applied to real-world via projects. 
                                  Projects such as analyzing multispectral data in 
