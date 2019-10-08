@@ -87,10 +87,10 @@ class Project_4 extends Component {
                          My specialty is focused on designing software 
                          and embedded systems to facilitate the overarching 
                          goal of the project, which is to develop a novel method for 
-                         assessing and monitoring the risk of eutrophication in small 
-                         bodies of water using UAV-based multispectral imagery. 
-                         I have thus far used technologies such as Pix4D, OpenDroneMap, 
-                         and python to model fertilizer runoff and analyzed chemical present in the body of water.       
+                         assessing and monitoring the health of Vines in  
+                         Vineyard using UAV-based multispectral imagery. 
+                         I have thus far used technologies such as ArcGIS, MapBox, Leaflet and OpenDroneMap, 
+                         to prototype an user interface.          
                          </div>  
  
                      </Cell>
