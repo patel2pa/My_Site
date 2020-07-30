@@ -1,10 +1,13 @@
 import React from "react";
 import "./education.css";
+import TimeLine from "./timeLine"
+
 
 class Education extends React.Component{
 
     render(){
         return(
+            <div>
             <div className="education">
                 <div className="educationTitle">
                     EDUCATION
@@ -25,7 +28,8 @@ class Education extends React.Component{
                 <div className = "GPA"> 
                     GPA: 3.16
                 </div>
-
+                </div>
+                <TimeLine/>
             </div>
         )
     }

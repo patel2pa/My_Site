@@ -24,7 +24,7 @@ class Project_3 extends Component {
                          <img     
                                  src = {this.state.imag}
                                  alt = "avatar"
-                                 style={{height: '500px', width: '755px' }}/>
+                                 style={{height: '500px', width: '750px' }}/>
                              <Cell col = {12}>
                              <div>
                                 <img     

@@ -11,7 +11,6 @@ class Header extends React.Component{
             <ul>
                 <li><a href="/experience">Experience</a></li>
                 <li><a href="/education">Education</a></li>
-                <li><a href="#">Skills</a></li>
                 <li><a href="#">Contect</a></li>
             </ul>
         </div> 
