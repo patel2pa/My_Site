@@ -10,14 +10,15 @@ class Header extends React.Component{
     
         <div className="hero container">
             
-            <div className="hero-copy">
+            {/* <div className="hero-copy">
                 <img className = "selfImage" src = {parthImage}/>
-            </div>
+            </div> */}
+
             <div className = "name">
                 Parth A Patel
             </div>
             <div className = "profession">
-                Software Engineer
+                Engineer and a Developer
             </div>
         </div>
         </div>
