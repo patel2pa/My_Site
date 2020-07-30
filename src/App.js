@@ -2,8 +2,8 @@ import React from 'react';
 import Nav from "./Components/components2.0/Nav";
 import Main from "./Components/components2.0/Main";
 import Projects from "./Components/Projects/Project";
-import Footer from "./Components/components2.0/Footer";
 import Education from "./Components/components2.0/education";
+import Contact from "./Components/components2.0/contact";
 import { Route, BrowserRouter as Router, BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
         <Route path = '/' exact component={Main}/>
         <Route path = '/experience' component={Projects}/>
         <Route path = '/education' component={Education}/>
-        <Footer/>
+        <Route path = '/contact' component={Contact}/>
       </div>
     </Switch>
     </BrowserRouter>

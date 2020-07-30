@@ -1,11 +1,14 @@
 import React from "react";
 import "./About.css";
 import {Link} from "react-router-dom";
-import parthImage from  "./images/Self2.jpg"
+import parthImage from  "./images/Self2.jpg";
+import Footer from "./Footer";
+
 
 class About extends React.Component{
     render(){
         return(
+        <div>
             <div className = "about" >
                
                 <div className = "aboutDescription">
@@ -50,6 +53,8 @@ class About extends React.Component{
                     </div>
                 </div>
             </div>
+            <Footer/>
+        </div>
         )
     }
 

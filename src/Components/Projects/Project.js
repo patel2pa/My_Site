@@ -161,7 +161,7 @@ class Project extends Component {
     else if(this.state.activeTab === 0){
         return(
             <div >
-                <div className = "projectTitle">Work/Projects of the past and present</div>
+                <div className = "projectTitle"> - Work/Projects of the past and present -</div>
                <ComprehensiveProjects/>
             </div>
         )
