@@ -1,53 +1,28 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
-import Main from './Components/Main'
-import { Link } from 'react-router-dom';
-import './App.css'
+import React from 'react';
+import Nav from "./Components/components2.0/Nav";
+import Main from "./Components/components2.0/Main";
+import Projects from "./Components/Projects/Project";
+import Footer from "./Components/components2.0/Footer";
+import Education from "./Components/components2.0/education";
+import { Route, BrowserRouter as Router, BrowserRouter, Switch } from 'react-router-dom';
+import './App.css';
 
+//https://stackoverflow.com/questions/43985376/how-to-organise-components-for-a-single-page-scrolling-website-in-react
 
-class App extends Component {
-render(){
-
+function App() {
   return (
-
-    <div className="demo-big-content">
-    <Layout>
-        <Header className = "header-color" title={<Link style = {{textDecoration: 'none', color: 'white'}} to = "/">Portfolio</Link>} scroll>
-            <Navigation>
-                
-                
-                
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-
-        </Header>
-        
-        <Drawer className = "header-color" title={<Link style = {{textDecoration: 'none', color: 'gray'}} to = "/">Portfolio</Link>}>
-            <Navigation>
-                
-                
-               
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-            <div className="page-content" />
-            <Main/>
-        </Content>
-    </Layout>
-</div>
-  
-
-  )
-
-
+    <BrowserRouter>
+    <Switch>
+      <div className="App">
+        <Nav/>
+        <Route path = '/' exact component={Main}/>
+        <Route path = '/experience' component={Projects}/>
+        <Route path = '/education' component={Education}/>
+        <Footer/>
+      </div>
+    </Switch>
+    </BrowserRouter>
+  );
 }
 
-}
-
-export default App
+export default App;

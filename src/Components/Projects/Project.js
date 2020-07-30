@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText,CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import Project_2 from './project_2';
+import ComprehensiveProjects from './project_2';
+
+
 class Project extends Component {
     constructor(props){
         super(props);
@@ -9,7 +11,7 @@ class Project extends Component {
 
     toggleCategories(){
 
-    if(this.state.activeTab === 0){
+    if(this.state.activeTab === 1){
         return(
             
             <div className = "projects-grids"> 
@@ -37,6 +39,7 @@ class Project extends Component {
                                 
                     </CardMenu> 
                 </Card>
+
 
                  {/* Project 2 */}
                  <Card shadow = {5} style = {{minWidth:  '450', margin: 'auto'}}>
@@ -155,10 +158,11 @@ class Project extends Component {
             </div>
         )
     }
-    else if(this.state.activeTab === 1){
+    else if(this.state.activeTab === 0){
         return(
             <div >
-               <Project_2/>
+                <div className = "projectTitle">Work/Projects of the past and present</div>
+               <ComprehensiveProjects/>
             </div>
         )
     }
@@ -172,8 +176,8 @@ class Project extends Component {
                 <Tabs activeTab = {this.state.activeTab} onChange={(tabId) => this.setState ({activeTab: tabId})}
                     ripple>
 
-                    <Tab>Mini Projects</Tab>
-                    <Tab>Comprehensive Projects</Tab>
+                    <Tab>Experience</Tab>
+                    <Tab>Personal Projects</Tab>
                     
                         </Tabs>
                     

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import Drone_3 from '../Drone_3.jpg'
-import Drone_1 from '../Done_1.PNG'
-import Drone_2 from '../Drone_2.PNG'
-import Drone_4 from '../Drone_3.PNG'
-
-
+import Drone_3 from './ProjectImages/Drone_3.jpg';
+import Drone_1 from './ProjectImages/Done_1.PNG';
+import Drone_2 from './ProjectImages/Drone_2.PNG';
+import Drone_4 from './ProjectImages/Drone_3.PNG';
+import Drone_5 from '../components2.0/images/skyPrecision1.png';
+import Drone_6 from '../components2.0/images/skyPrecision2.png';
 
 class Project_4 extends Component {
 
@@ -34,7 +34,7 @@ class Project_4 extends Component {
                          <img 
                                  src = {this.state.imag}
                                  alt = "avatar"
-                                 style={{height: '500px', }}/>
+                                 style={{height: '500px', width:'755px'}}/>
                              <Cell col = {12}>
  
                              <div >
@@ -46,16 +46,16 @@ class Project_4 extends Component {
                                          style={{height: '50px', cursor: 'pointer' }}/>
                              
                                  <img className = "edit_image"
-                                         src = {Drone_4}
+                                         src = {Drone_5}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Drone_4)}
+                                         onClick = {() => this.onClickEvent(Drone_5)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer' }}/>     
  
                                  <img 
-                                         src = {Drone_1}
+                                         src = {Drone_6}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Drone_1)}
+                                         onClick = {() => this.onClickEvent(Drone_6)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer'}}/> 
  

@@ -1,0 +1,27 @@
+.projectButtons{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.projects-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+button{
+    font-family: monospace;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.button1{
+    background-color: rgba(0, 0, 255, 0) !important;
+
+}
+
+.button2{
+    border: none;
+}

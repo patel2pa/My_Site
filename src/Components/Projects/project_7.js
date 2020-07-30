@@ -1,20 +1,13 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import Bike_1 from '../Bike_1.PNG';
-import Bike_2 from '../Bike_2.PNG';
-import Bike_3 from '../Bike_3.PNG';
-import Bike_4 from '../Bike_4.PNG';
-import Bike_5 from '../Bike_5.PNG';
-import Bike_6 from '../Bike_6.PNG'; 
-import Bike_10 from '../Bike_10.jpeg'
 
 
 
-class Project_5 extends Component {
+class Project_7 extends Component {
 
     
         state = {
-            imag: Bike_6
+            imag: bear1
         }
 
 
@@ -43,43 +36,31 @@ class Project_5 extends Component {
                              <div >
                              
                                 <img 
-                                         src = {Bike_10}
+                                         src = {bear1}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_10)}
+                                         onClick = {() => this.onClickEvent(bear1)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer' }}/> 
 
                                 <img className = "edit_image"
-                                         src = {Bike_2}
+                                         src = {bear2}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_2)}
+                                         onClick = {() => this.onClickEvent(bear2)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer'}}/>  
                                 <img className = "edit_image"
-                                         src = {Bike_4}
+                                         src = {bear3}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_4)}
+                                         onClick = {() => this.onClickEvent(bear3)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer'}}/>  
                                 <img className = "edit_image"
-                                         src = {Bike_3}
+                                         src = {bear4}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_3)}
+                                         onClick = {() => this.onClickEvent(bear4)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer'}}/>  
-                                <img className = "edit_image"
-                                         src = {Bike_1}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_1)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>
-
-                                <img className = "edit_image"
-                                         src = {Bike_6}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_6)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>                       
+                                                   
                              </div>
  
                              </Cell>
@@ -124,4 +105,4 @@ class Project_5 extends Component {
 
 }
 
-export default Project_5; 
+export default Project_7; 
