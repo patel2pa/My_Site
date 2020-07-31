@@ -18,7 +18,7 @@ class About extends React.Component{
                     </div>
 
                     <div className = "about1">
-                        I am parth a Software Engineer
+                        Hi, I am parth
                     </div>
 
                     <div className = "about2">

@@ -171,7 +171,9 @@ class Project extends Component {
     else if(this.state.activeTab === 2){
         return(
             <div>
-                <Skills/>
+
+                <Skills/>     
+           
             </div>
         )
     }

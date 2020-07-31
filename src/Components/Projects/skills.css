@@ -1,0 +1,19 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skillsTitle{
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+.skillsDescription{
+    margin: auto;
+}
