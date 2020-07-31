@@ -16,4 +16,22 @@
 
 .skillsDescription{
     margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.skillsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 65px;
+    font-size: 16px;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
 }

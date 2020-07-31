@@ -5,6 +5,7 @@ import "./skills.css"
 class Skills extends Component {
     render(){
         return(
+        <div>
             <div className = "skills">
                 <div className="skillsTitle">
                     Skills
@@ -13,6 +14,16 @@ class Skills extends Component {
                 I've worked with a wide variety of programming languages. For web applications 
                 I use PHP and Javascript. Whenever I need the most performance possible 
                 I obviously go with C++ and finally when I am building prototypes or working on my hobby projects I fall back on Python
+                </div>
+                </div>
+                <div className = "skillsList"> 
+                    <div> <b>Python</b> </div>
+                    <div> <b>Javascript</b> </div>
+                    <div> <b>Node.JS</b> </div>
+                    <div> <b>Java</b> </div>
+                </div>
+                <div className = "tools">
+                    <h4><b>Tools</b></h4>
                 </div>
             </div>
         )
