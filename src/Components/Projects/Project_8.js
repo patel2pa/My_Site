@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import ArcheMedX from "../components2.0/images/archemedx.png";
-import ArcheMedX2 from "../components2.0/images/archemedx2.png";
+import Pontem from "../components2.0/images/Pontem.png";
+import Pontem2 from "../components2.0/images/pontem2.png";
+import Pontem3 from "../components2.0/images/Pontem3.png";
 
 
-class Project_7 extends Component {
+class Project_8 extends Component {
 
     
         state = {
-            imag: ArcheMedX
+            imag: Pontem3
         }
 
 
@@ -35,21 +36,23 @@ class Project_7 extends Component {
                              <Cell col = {12}>
  
                              <div >
-                             
-                                <img 
-                                         src = {ArcheMedX}
+                                 
+                             <img className = "edit_image"
+                                         src = {Pontem3}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(ArcheMedX)}
+                                         onClick = {() => this.onClickEvent(Pontem3)}
                                          onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer' }}/> 
+                                         style={{height: '50px', cursor: 'pointer'}}/>  
+                            
 
                                 <img className = "edit_image"
-                                         src = {ArcheMedX2}
+                                         src = {Pontem2}
                                          alt = "avatar"
-                                         onClick = {() => this.onClickEvent(ArcheMedX2)}
+                                         onClick = {() => this.onClickEvent(Pontem2)}
                                          onmouseover=""
                                          style={{height: '50px', cursor: 'pointer'}}/>  
                                
+
                                                    
                              </div>
  
@@ -95,4 +98,4 @@ class Project_7 extends Component {
 
 }
 
-export default Project_7; 
+export default Project_8; 

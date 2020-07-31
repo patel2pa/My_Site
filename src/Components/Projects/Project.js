@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText,CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import ComprehensiveProjects from './project_2';
+import Skills from "./skills"
 
 
 class Project extends Component {
@@ -161,8 +162,16 @@ class Project extends Component {
     else if(this.state.activeTab === 0){
         return(
             <div >
-                <div className = "projectTitle"> - Work/Projects of the past and present -</div>
+                <div className = "projectTitle"> -- Work/Projects of the past and present -- </div>
                <ComprehensiveProjects/>
+            </div>
+        )
+    }
+
+    else if(this.state.activeTab === 2){
+        return(
+            <div>
+                <Skills/>
             </div>
         )
     }
@@ -178,6 +187,7 @@ class Project extends Component {
 
                     <Tab>Experience</Tab>
                     <Tab>Personal Projects</Tab>
+                    <Tab>Skills</Tab>
                     
                         </Tabs>
                     
