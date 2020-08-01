@@ -1,43 +1,32 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import EE_1 from '../EE_1.PNG';
-import EE_2 from '../EE_2.PNG';
-import EE_3 from '../EE_3.PNG';
-import EE_4 from '../EE_4.PNG';
+import EE_1 from './ProjectImages/EE_1.PNG'
+import EE_2 from './ProjectImages/EE_2.PNG';
+import EE_3 from './ProjectImages/EE_3.PNG';
+import EE_4 from './ProjectImages/EE_4.PNG';
 
 
 class Project_3 extends Component {
-
-    
         state = {
             imag: EE_2
         }
-
-
-     
     onClickEvent = (new_img)=>{
 
         this.setState({
             imag: new_img
         })
     }
-
-
     render(){
         return(
             <div>
-                 <Grid>
-                    
-                    <Cell col = {8}>
-                         
+                 <Grid>               
+                    <Cell col = {8}>  
                          <img     
                                  src = {this.state.imag}
                                  alt = "avatar"
-                                 style={{height: '500px', width: '755px' }}/>
+                                 style={{height: '500px', width: '750px' }}/>
                              <Cell col = {12}>
- 
-                             <div >
-                             
+                             <div>
                                 <img     
                                         
                                          src = {EE_3}

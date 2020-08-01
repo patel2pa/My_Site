@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import Bike_1 from '../Bike_1.PNG';
-import Bike_2 from '../Bike_2.PNG';
-import Bike_3 from '../Bike_3.PNG';
-import Bike_4 from '../Bike_4.PNG';
-import Bike_5 from '../Bike_5.PNG';
-import Bike_6 from '../Bike_6.PNG'; 
-import Bike_10 from '../Bike_10.jpeg'
+import Bike_1 from './ProjectImages/Bike_1.PNG';
+import Bike_2 from './ProjectImages/Bike_2.PNG';
+import Bike_3 from './ProjectImages/Bike_3.PNG';
+import Bike_4 from './ProjectImages/Bike_4.PNG';
+import Bike_6 from './ProjectImages/Bike_6.PNG'; 
+import Bike_10 from './ProjectImages/Bike_10.jpeg'
 
 
 
@@ -14,7 +13,7 @@ class Project_5 extends Component {
 
     
         state = {
-            imag: Bike_6
+            imag: Bike_10
         }
 
 
@@ -37,7 +36,7 @@ class Project_5 extends Component {
                          <img 
                                  src = {this.state.imag}
                                  alt = "avatar"
-                                 style={{height: '500px', width: '755px' }}/>
+                                 style={{height: '500px', width: '750px' }}/>
                              <Cell col = {12}>
  
                              <div >

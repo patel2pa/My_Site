@@ -1,0 +1,68 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid gray;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    
+}
+
+.aboutImage{
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.SelfImage{
+    height:300px;
+    width: auto;
+}
+
+.aboutDescription{
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.aboutme{
+    margin-top: 50px;
+    color: black !important;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+
+.about1{
+    margin-top: 40px;
+}
+
+.about2{
+    margin-top: 20px;
+}
+
+.about3{
+    margin-top: 20px;
+}
+
+.about4{
+    margin-top: 20px;
+}
+
+.about5{
+    margin-top: 20px;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about5 div{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent  } from 'react-mdl'; 
-import './Contact.css'; 
-import Image from '../Parth_image.jpg'
+import './contact.css'; 
+import Image from './images/Parth_image.jpg';
 
 
 class Contact extends Component {
     render(){
         return(
         
-        <div className="wrapper">
-            <div className="container">
+        <div className="wrapper_">
+            <div className="container_">
               <img src={Image} alt="" className="profile-img"/>
               
               <div className="content">
@@ -42,11 +41,7 @@ class Contact extends Component {
 
 
         )
-
-
     }
-
-
 }
 
-export default Contact; 
+export default Contact;

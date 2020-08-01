@@ -8,14 +8,14 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.wrapper{
+.wrapper_{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
-.container{
+.container_{
   width: 280px;
   height: 350px;
   background: #fff;
@@ -24,7 +24,7 @@ body{
   box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.container .profile-img{
+.container_ .profile-img{
   width: 100px;
   height: 100px;
   border-radius: 50%;
