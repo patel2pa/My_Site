@@ -30,11 +30,12 @@ class About extends React.Component{
                     </div>
                     
                     <div className = "about3">
-                    I am always looking for opertunities to learn and 
-                    expend my pool of knowalge and 
-                    Shortly after graduating from Northeastern University, 
-                    I joined the engineering team at Upstatement where 
-                    I work on a wide variety of interesting and meaningful projects on a daily basis.
+                    I am curious and competitive by nature and I am fortunate to grow up in circumstances 
+                    that have allowed me to learn. As an earnest learner, my natural habit has been to 
+                    consume knowledge from a multitude of sources. 
+                    I have learned from a mixture of online tutorials, videos, books 
+                    and conversations with people.
+                  
                     </div>
                     <div className = "about4">
                     Some of the skills that I have developer in the past two months:

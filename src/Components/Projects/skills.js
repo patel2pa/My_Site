@@ -46,7 +46,6 @@ class Skills extends Component {
                     <div> <b>Circuit Design</b> </div>
                 </div>
                 </div>
-                <Footer/>
             </div>
         )
 

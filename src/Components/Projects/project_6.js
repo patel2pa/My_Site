@@ -73,21 +73,24 @@ class Project_6 extends Component {
  
                      <Cell col={4}> 
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
-                        <h3 > Human Powered Vehicle</h3>
-                        <h5 style={{borderBottom: '3px solid #010101'}}>Researcher/Prototype Engineer</h5>
-                        The Human Powered Vehicle was part of a 
-                        sophomore design project with an objective 
-                        of utilizing the human-centered process to design 
-                        and manufacture a custom bike for a young community 
-                        member with arthrogryposis. As a researcher,  
-                        I analyzed different components to understand their 
-                        feasibility with other components through conversation 
-                        with experts and online articles. Additionally, 
-                        I was a Prototype engineer, 
-                        I built 6 different prototypes to inspect 
-                        the subsystem facility and communicate the 
-                        design with the client. Through this project, 
-                        I learned the importance of communication and prototyping.  
+                        <h3 > Bearable  </h3>
+                        <h5 style={{borderBottom: '3px solid #010101'}}>Scrum Developer</h5>
+                        Bearable was a multidisciplinary project t
+                        o provide tools to the scientists, ecologies, 
+                        and experts to study bear behavior. 
+                        I worked with Biology, Industrial Design, ISAT, 
+                        and Communication students to design and build an IoT system, 
+                        wrote a Machine Learning algorithm 
+                        in Python and web app in Javascript, 
+                        conducted interviews with experts, and presented out final work. 
+                        Out final solution consisted of IoT devices,  
+                        Bear collar, remote communication via Iridium 
+                        satellite, Backend data storage system, 
+                        Frontend UI built with React JS, and pattern detection algorithm.    
+                        Working in a multidisciplinary team allowed me 
+                        to learn skills such as communication. 
+                        To visit the project's official site 
+                        <a href = "https://sites.lib.jmu.edu/iotspring2020/bearable/"> click here</a>     
                         </div>  
  
                      </Cell>

@@ -62,19 +62,17 @@ class Project_7 extends Component {
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
                         <h3 > ArcheMedX, Inc</h3>
                         <h5 style={{borderBottom: '3px solid #010101'}}>Software Test Engineer</h5>
-                        The Human Powered Vehicle was part of a 
-                        sophomore design project with an objective 
-                        of utilizing the human-centered process to design 
-                        and manufacture a custom bike for a young community 
-                        member with arthrogryposis. As a researcher,  
-                        I analyzed different components to understand their 
-                        feasibility with other components through conversation 
-                        with experts and online articles. Additionally, 
-                        I was a Prototype engineer, 
-                        I built 6 different prototypes to inspect 
-                        the subsystem facility and communicate the 
-                        design with the client. Through this project, 
-                        I learned the importance of communication and prototyping.  
+                        Shotly after graduting from JMU, I started working at 
+                        ArcheMedX as a freelance Software Test Engineer.
+                        At ArcheMedX, I am 
+                        Responsible for delivering quality software to our clients. 
+                        I do this through automation and manual testing. 
+                        I write automation scripts to reduce monotonous tasks 
+                        and conduct manual testing via many browsers and devices. 
+                        At ArcheMedX, I picked up new skills as Continuous Intergration, 
+                        Manual testing and Automation test, along with new technologies such
+                        as Cypress and TypeScript. I collabate with developes to 
+                        set testing protocols and participate in standup meetings.  
                         </div>  
  
                      </Cell>
