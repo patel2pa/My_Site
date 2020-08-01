@@ -78,19 +78,23 @@ class Project_4 extends Component {
  
                          
                          <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
-                         <h3 >Aerial Multispectral Imaging</h3>
-                         <h5 style={{borderBottom: '3px solid #010101'}}>Software Developer and System Engineer</h5>
-                         Aerial multispectral imagery project is part of 
+                         <h3 >SkyPrecision</h3>
+                         <h5 style={{borderBottom: '3px solid #010101'}}>Software Engineer</h5>
+                         {/* Aerial multispectral imagery project is part of 
                          four-semester long engineering design courses, 
                          with an objective of providing students with knowledge of 
-                         engineering design in their respective specialties. 
-                         My specialty is focused on designing software 
-                         and embedded systems to facilitate the overarching 
-                         goal of the project, which is to develop a novel method for 
+                         engineering design in their respective specialties.  */}
+                         My specialty was focused on designing and developing software 
+                         to facilitate the overreaching 
+                         goal of the project, which was to develop a novel method for 
                          assessing and monitoring the health of Vines in  
-                         Vineyard using UAV-based multispectral imagery. 
-                         I have thus far used technologies such as ArcGIS, MapBox, Leaflet and OpenDroneMap, 
-                         to prototype an user interface.          
+                         Vineyard using UAV-based multispectral imagery.
+                         I assisted in establishing the software archetecture, build a drone skeleton and 
+                         developed the frontend through React JS, HTML and CSS. I
+                         gained hands on experience in technologies such as ArcGIS, MapBox, Leaflet 
+                         and OpenDroneMap while working in 8 person team built around agile methodology. 
+                         We recently made the local new, to view 
+                          <a className="newsLink" href="https://www.whsv.com/content/news/JMU-students-create-project-to-help-vineyard-management-569862561.html"> click here</a>          
                          </div>  
  
                      </Cell>

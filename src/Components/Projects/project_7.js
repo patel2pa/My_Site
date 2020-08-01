@@ -60,8 +60,8 @@ class Project_7 extends Component {
  
                      <Cell col={4}> 
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
-                        <h3 > Human Powered Vehicle</h3>
-                        <h5 style={{borderBottom: '3px solid #010101'}}>Researcher/Prototype Engineer</h5>
+                        <h3 > ArcheMedX, Inc</h3>
+                        <h5 style={{borderBottom: '3px solid #010101'}}>Software Test Engineer</h5>
                         The Human Powered Vehicle was part of a 
                         sophomore design project with an objective 
                         of utilizing the human-centered process to design 

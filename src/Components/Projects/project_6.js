@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import bear1 from "./ProjectImages/bear1.PNG";
+import bear3 from "./ProjectImages/bear1.PNG";
 import bear2 from "./ProjectImages/bear2.PNG";
-import bear3 from "./ProjectImages/bear3.PNG";
+import bear1 from "./ProjectImages/bear3.PNG";
 import bear4 from "./ProjectImages/bear4.PNG";
 
 
