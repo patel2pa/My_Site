@@ -63,21 +63,26 @@ class Project_8 extends Component {
  
                      <Cell col={4}> 
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
-                        <h3 > Human Powered Vehicle</h3>
+                        <h3 > Hacking for Defense </h3>
                         <h5 style={{borderBottom: '3px solid #010101'}}>Researcher/Prototype Engineer</h5>
-                        The Human Powered Vehicle was part of a 
-                        sophomore design project with an objective 
-                        of utilizing the human-centered process to design 
-                        and manufacture a custom bike for a young community 
-                        member with arthrogryposis. As a researcher,  
-                        I analyzed different components to understand their 
-                        feasibility with other components through conversation 
-                        with experts and online articles. Additionally, 
-                        I was a Prototype engineer, 
-                        I built 6 different prototypes to inspect 
-                        the subsystem facility and communicate the 
-                        design with the client. Through this project, 
-                        I learned the importance of communication and prototyping.  
+                        "Hacking for Defense (H4D) is an education 
+                        initiative that applies design thinking 
+                        and the Lean Startup model to solve real 
+                        and complex problems in the defense and 
+                        intelligence communities. To do this, 
+                        transdisciplinary student teams interview dozens of 
+                        users and experts every week and 
+                        constantly prototype solutions." 
+                        Our problem statement was Soldiers 
+                        on the battlefield need a way to 
+                        quickly and accurately identify lab 
+                        equipment to recognize Weapons of 
+                        Mass Destruction (WMD) threats. 
+                        Our goal is to assist the DTRA in 
+                        improving the current system or find a 
+                        new system to accurately identify WMDs. 
+                        We conducted 40 interviews with military 
+                        personals and industry experts within a single semester.
                         </div>  
  
                      </Cell>
