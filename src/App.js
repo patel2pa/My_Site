@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-    <Switch>
       <div className="App">
         <Nav/>
         <Route path = '/' exact component={Main}/>
@@ -20,7 +19,6 @@ function App() {
         <Route path = '/education' component={Education}/>
         <Route path = '/contact' component={Contact}/>
       </div>
-    </Switch>
     </BrowserRouter>
   );
 }
