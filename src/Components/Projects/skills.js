@@ -13,9 +13,11 @@ class Skills extends Component {
                     Skills
                 </div>  
                 <div className = "skillsDescription">
-                I've worked with a wide variety of programming languages. For web applications 
-                I use PHP and Javascript. Whenever I need the most performance possible 
-                I obviously go with C++ and finally when I am building prototypes or working on my hobby projects I fall back on Python
+                I have diverse sets of skills ranging from Solidworks, 
+                System analysis to React JS, and Mapbox GL. 
+                I am always looking for opportunities to extend my pool of 
+                knowledge and learn new skills here are some of my skills and 
+                tools that have used in the past.   
                 </div>
                 </div>
                 <div className = "skillsList"> 

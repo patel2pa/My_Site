@@ -25,7 +25,7 @@ class TimeLine extends React.Component{
             <h3 className="vertical-timeline-element-title">Hacking 4 Defense</h3>
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            Presented final solution to Military personals, experts, professors and peers
+            Presented the final solution to Military personals, experts, professors and peers
             </p>
         </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -36,7 +36,7 @@ class TimeLine extends React.Component{
             <h3 className="vertical-timeline-element-title">Engineer Capston</h3>
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            Finished and presented 2 year long capstone, 
+            Finished and presented 2 years long capstone, 
             centered around curtailing eutrophication in bodies of water 
             </p>
         </VerticalTimelineElement>
@@ -50,7 +50,7 @@ class TimeLine extends React.Component{
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
             Finalized a system for remote communication of bear behavior data and 
-            IoT inferstructure     
+            IoT infrastructure     
             </p>
         </VerticalTimelineElement>
         
@@ -62,7 +62,7 @@ class TimeLine extends React.Component{
             <h3 className="vertical-timeline-element-title">Hacking for Defense</h3>
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            Started Hacking for Defense project, comprising of Lean start up approch, 
+            Started Hacking for Defense project, comprising of Lean start-up approach, 
             conducted 40 interviews and iterating through solution each week
             </p>
         </VerticalTimelineElement>
@@ -74,7 +74,7 @@ class TimeLine extends React.Component{
             <h3 className="vertical-timeline-element-title"> IoT project </h3>
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            Used radio communication to send data from handheld device to 
+            Used radio communication to send data from a handheld device to 
             python for counting the number of steps taken 
             </p>
         </VerticalTimelineElement>
@@ -111,7 +111,7 @@ class TimeLine extends React.Component{
             <h3 className="vertical-timeline-element-title"> Human-Powered Vehicle Project</h3>
             <h4 className="vertical-timeline-element-subtitle">JMU Engineering</h4>
             <p>
-            Worked with a team to design and build a custom bike for a 10 year old with disabilities.
+            Worked with a team to design and build a custom bike for a 10-year-old with disabilities.
             </p>
         </VerticalTimelineElement>
     </VerticalTimeline>
