@@ -102,9 +102,18 @@ class TimeLine extends React.Component{
             Capstone team awarded first place in Jame Madison Engineering xChange.
             </p>
         </VerticalTimelineElement>
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            />
+
+        <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                date="May 2018"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            >
+            <h3 className="vertical-timeline-element-title"> Human-Powered Vehicle Project</h3>
+            <h4 className="vertical-timeline-element-subtitle">JMU Engineering</h4>
+            <p>
+            Worked with a team to design and build a custom bike for a 10 year old with disabilities.
+            </p>
+        </VerticalTimelineElement>
     </VerticalTimeline>
         )
     }

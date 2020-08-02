@@ -28,9 +28,25 @@ class Education extends React.Component{
                 <div className = "GPA"> 
                     GPA: 3.16
                 </div>
+                <div className="courses">Courses</div>
+
                 </div>
                 <div className = "courseList">
-                    
+                    <div> Calculus I,II,III </div>
+                    <div> Chemistry</div>
+                    <div> University Physics</div>
+                    <div> Programming</div>
+                    <div> Advanced Programming </div>
+                    <div> Circuits and Instrumentation</div>
+                    <div> Engineering Design I, II, III, IV, V, VI</div>
+                    <div> Linear Algebra</div>
+                    <div> Materials & Mechanics</div>
+                    <div> Statics & Dynamics </div>
+                    <div> Systems Dynamics</div>
+                    <div> Thermal Fluids & Dynamics I, II</div>
+                    <div> Engineering Managemen I, IIt</div>
+                    <div> Bioprocess Engineering</div>
+                    <div> Engineering Economics</div> 
                 </div>
                 <TimeLine/>
             </div>
