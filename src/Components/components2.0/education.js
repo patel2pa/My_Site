@@ -32,7 +32,7 @@ class Education extends React.Component{
 
                 </div>
                 <div className = "courseList">
-                    <div> Calculus I,II,III </div>
+                    <div> Calculus I,II,III, IV</div>
                     <div> Chemistry</div>
                     <div> University Physics</div>
                     <div> Programming</div>

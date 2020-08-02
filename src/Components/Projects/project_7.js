@@ -62,17 +62,16 @@ class Project_7 extends Component {
                      <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
                         <h3 > ArcheMedX, Inc</h3>
                         <h5 style={{borderBottom: '3px solid #010101'}}>Software Test Engineer</h5>
-                        Shotly after graduting from JMU, I started working at 
-                        ArcheMedX as a freelance Software Test Engineer.
-                        At ArcheMedX, I am 
-                        Responsible for delivering quality software to our clients. 
+                        Shortly after graduating from JMU, 
+                        I started working at ArcheMedX as a freelance Software Test Engineer.
+                        At ArcheMedX, I am Responsible for delivering quality software to our clients. 
                         I do this through automation and manual testing. 
                         I write automation scripts to reduce monotonous tasks 
                         and conduct manual testing via many browsers and devices. 
-                        At ArcheMedX, I picked up new skills as Continuous Intergration, 
-                        Manual testing and Automation test, along with new technologies such
-                        as Cypress and TypeScript. I collabate with developes to 
-                        set testing protocols and participate in standup meetings.  
+                        At ArcheMedX, I picked up new skills as Continuous Integration, 
+                        Manual testing, and Automation test, along with new technologies 
+                        such as Cypress and TypeScript. I collaborate with developers 
+                        to set testing protocols and participate in standup meetings. 
                         </div>  
  
                      </Cell>

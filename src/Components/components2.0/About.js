@@ -24,17 +24,16 @@ class About extends React.Component{
                     <div className = "about2">
 
                     I am a recent engineering graduate from James Madison University 
-                    with experiences in multiple engineering discipline 
-                    which include Software, Electrical, and Mechanical.  
+                    with experiences in multiple engineering disciplines 
+                    which include Software, Electrical, and Mechanical.
+                    I am currently looking for full-time opportunities in these fields 
+  
 
                     </div>
                     
                     <div className = "about3">
-                    I am curious and competitive by nature and I am fortunate to grow up in circumstances 
-                    that have allowed me to learn. As an earnest learner, my natural habit has been to 
-                    consume knowledge from a multitude of sources. 
-                    I have learned from a mixture of online tutorials, videos, books 
-                    and conversations with people. 
+                    I am curious and competitive by nature and I am fortunate to grow up in circumstances that have allowed me to learn. As an earnest learner, my natural habit has been to consume knowledge from a multitude of sources. 
+                    I have learned from a mixture of online tutorials, videos, books, and conversations with people. 
                     </div>
                     <div className = "about4">
                     Some of the skills that I have developed in the past two months:
