@@ -19,11 +19,10 @@ class Education extends React.Component{
                 Bachelor of Science in Engineering
                 </div>
                 <div className="educationDescription">
-                JMU Department of Engineering in an interdisciplinary general engineering 
-                program that highlights a project-based learning experience for 
-                their students. Through a wide variety of coursework, 
-                students begin to challenge their technical knowledge and team 
-                based work ethics to positively influence others and the community. 
+                I have diverse sets of skills ranging from Solidworks, 
+                System analysis to React JS, and Mapbox GL. 
+                I am always looking for opportunities to extend my pool of 
+                knowledge and learn new skills here are some of my skills and tools that have used in the past.   
                 </div>
                 <div className = "GPA"> 
                     GPA: 3.16
