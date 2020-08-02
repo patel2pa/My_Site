@@ -33,6 +33,19 @@ class TimeLine extends React.Component{
                 date="April 2020"
                 iconStyle={{ background: 'rgb(255, 0, 0)', color: '#fff' }}
             >
+            <h3 className="vertical-timeline-element-title">Engineer Capston</h3>
+            <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
+            <p>
+            Finished and presented 2 year long capstone, 
+            centered around curtailing eutrophication in bodies of water 
+            </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="April 2020"
+                iconStyle={{ background: 'rgb(255, 0, 0)', color: '#fff' }}
+            >
             <h3 className="vertical-timeline-element-title">Bearables</h3>
             <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
@@ -40,53 +53,67 @@ class TimeLine extends React.Component{
             IoT inferstructure     
             </p>
         </VerticalTimelineElement>
+        
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2006 - 2008"
+                date="January 2020"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">Hacking for Defense</h3>
+            <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            User Experience, Visual Design
+            Started Hacking for Defense project, comprising of Lean start up approch, 
+            conducted 40 interviews and iterating through solution each week
             </p>
         </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                date="April 2013"
+                date="December 2020"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+            <h3 className="vertical-timeline-element-title"> IoT project </h3>
+            <h4 className="vertical-timeline-element-subtitle">Harrisonburg, VA</h4>
             <p>
-            Strategy, Social Media
+            Used radio communication to send data from handheld device to 
+            python for counting the number of steps taken 
             </p>
         </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                date="November 2012"
+                date="November 2020"
                 iconStyle={{ background: 'rgb(255, 64, 0)', color: '#fff' }}
             >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+            <h3 className="vertical-timeline-element-title">Lunar lander</h3>
+            <h4 className="vertical-timeline-element-subtitle">JMU - System Engineering</h4>
             <p>
-            Creative Direction, User Experience, Visual Design
+            Evaluate lunar lander spring and damper system utilizing 
+            System Engineering principle 
             </p>
         </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                date="2002 - 2006"
+                date="May 2019"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+            <h3 className="vertical-timeline-element-title">Madison Engineering xChange</h3>
+            <h4 className="vertical-timeline-element-subtitle">JMU Engineering</h4>
             <p>
-            Creative Direction, Visual Design
+            Capstone team awarded first place in Jame Madison Engineering xChange.
             </p>
         </VerticalTimelineElement>
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            />
+
+        <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                date="May 2018"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            >
+            <h3 className="vertical-timeline-element-title"> Human-Powered Vehicle Project</h3>
+            <h4 className="vertical-timeline-element-subtitle">JMU Engineering</h4>
+            <p>
+            Worked with a team to design and build a custom bike for a 10 year old with disabilities.
+            </p>
+        </VerticalTimelineElement>
     </VerticalTimeline>
         )
     }

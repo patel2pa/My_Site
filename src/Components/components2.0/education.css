@@ -40,3 +40,21 @@
     padding-bottom: 50px;
 
 }
+
+.courseList{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;   
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.courses{
+    margin-top: 35px;
+    font-size: 20px;
+}
