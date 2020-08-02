@@ -34,8 +34,7 @@ class About extends React.Component{
                     that have allowed me to learn. As an earnest learner, my natural habit has been to 
                     consume knowledge from a multitude of sources. 
                     I have learned from a mixture of online tutorials, videos, books 
-                    and conversations with people.
-                  
+                    and conversations with people. 
                     </div>
                     <div className = "about4">
                     Some of the skills that I have developer in the past two months:

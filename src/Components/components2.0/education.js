@@ -29,6 +29,9 @@ class Education extends React.Component{
                     GPA: 3.16
                 </div>
                 </div>
+                <div className = "courseList">
+                    
+                </div>
                 <TimeLine/>
             </div>
         )
