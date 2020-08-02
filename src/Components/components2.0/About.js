@@ -37,7 +37,7 @@ class About extends React.Component{
                     and conversations with people. 
                     </div>
                     <div className = "about4">
-                    Some of the skills that I have developer in the past two months:
+                    Some of the skills that I have developed in the past two months:
                     </div>
                     <div className = "about5">
                         <div> - Automation and Manual Testing</div>

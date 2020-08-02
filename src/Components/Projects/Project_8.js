@@ -83,6 +83,7 @@ class Project_8 extends Component {
                         new system to accurately identify WMDs. 
                         We conducted 40 interviews with military 
                         personals and industry experts within a single semester.
+                        For project's site <a href="https://sites.lib.jmu.edu/h4defensespring2020/team-pontem/">click here</a>
                         </div>  
  
                      </Cell>

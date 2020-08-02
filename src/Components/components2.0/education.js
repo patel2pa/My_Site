@@ -44,7 +44,7 @@ class Education extends React.Component{
                     <div> Statics & Dynamics </div>
                     <div> Systems Dynamics</div>
                     <div> Thermal Fluids & Dynamics I, II</div>
-                    <div> Engineering Managemen I, IIt</div>
+                    <div> Engineering Managemen I, II</div>
                     <div> Bioprocess Engineering</div>
                     <div> Engineering Economics</div> 
                 </div>
