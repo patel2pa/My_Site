@@ -11,9 +11,6 @@ class Header extends React.Component{
     
             <div className="hero container">
             
-            {/* <div className="hero-copy">
-                <img className = "selfImage" src = {parthImage}/>
-            </div> */}
 
             <div className = "name">
                 Parth A Patel
