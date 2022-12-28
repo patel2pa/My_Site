@@ -7,13 +7,13 @@ html {
 }
   
 
-  .projects-grid{
+.projects-grid{
     display: flex;
     
-  }
-  .projects-grid{
+}
+.projects-grid{
     padding: 20px;
-  }
+}
 
 .edit_image{
 padding-right:10px;

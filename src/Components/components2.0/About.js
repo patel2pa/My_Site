@@ -47,9 +47,12 @@ class About extends React.Component{
                     </div>
 
                 </div>
-                <div className="aboutImage">
-                    <img className = "SelfImage" src = {parthImage}/>
-                </div>
+                
+            <div className="aboutImage">
+                <img className = "SelfImage" src = {parthImage}/>
+            </div>
+
+            
             </div>
             <Footer/>
         </div>

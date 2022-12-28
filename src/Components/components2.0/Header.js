@@ -8,18 +8,18 @@ class Header extends React.Component{
         <div>
             <div className = "header">
 
-    
-            <div className="hero container">
-            
+                <div className="hero container">
 
-            <div className = "name">
-                Parth A Patel
+                    <div className = "name">
+                        Parth A Patel
+                    </div>
+
+                    <div className = "profession">
+                        Engineer and a Developer
+                    </div>
+
+                </div>
             </div>
-            <div className = "profession">
-                Engineer and a Developer
-            </div>
-            </div>
-        </div>
         </div>
         )
     }
