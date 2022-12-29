@@ -1,23 +1,9 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import ArcheMedX from "../components2.0/images/archemedx.png";
 
 
 class Project_7 extends Component {
 
-    
-        state = {
-            imag: ArcheMedX
-        }
-
-
-     
-    onClickEvent = (new_img)=>{
-
-        this.setState({
-            imag: new_img
-        })
-    }
 
 
     render(){

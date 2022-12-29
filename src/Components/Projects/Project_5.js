@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
-import Bike_1 from './ProjectImages/Bike_1.PNG';
-import Bike_2 from './ProjectImages/Bike_2.PNG';
-import Bike_3 from './ProjectImages/Bike_3.PNG';
-import Bike_4 from './ProjectImages/Bike_4.PNG';
-import Bike_6 from './ProjectImages/Bike_6.PNG'; 
-import Bike_10 from './ProjectImages/Bike_10.jpeg'
+
 
 
 

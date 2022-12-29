@@ -22,14 +22,14 @@ class About extends React.Component{
                     </div>
 
                     <div className = "about2">
-                        I am a Software Developer currently working at Kinsale Insuarance. 
+                        I am a Software Developer currently working at Kinsale Insuarance and a JMU Graduate. 
                         I have experience in Fullstack Development and working with technologies 
                         such as Spring, Angular, SQL and multiple AWS services. 
                     </div>
                     
                     <div className = "about3">
                         I created this site back in 2020 as a way to learn React,
-                        CSS and learn about deploying code to production, and I am
+                        CSS and learn about deploying code to production. I am
                         always looking to add new skills to my tool box. 
                         This website contains information about my experiences, contact information, and skills. 
                     </div>

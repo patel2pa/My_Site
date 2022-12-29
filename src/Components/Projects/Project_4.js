@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import{ Grid, Cell } from 'react-mdl';
 import Drone_3 from './ProjectImages/Drone_3.jpg';
 import Drone_1 from './ProjectImages/Done_1.PNG';
-import Drone_2 from './ProjectImages/Drone_2.PNG';
 import Drone_4 from './ProjectImages/Drone_3.PNG';
 import Drone_5 from '../components2.0/images/skyPrecision1.png';
 import Drone_6 from '../components2.0/images/skyPrecision2.png';
@@ -38,12 +37,7 @@ class Project_4 extends Component {
                              <Cell col = {12}>
  
                              <div >
-                                 <img 
-                                         src = {Drone_2}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Drone_2)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer' }}/>
+
                              
                                  <img className = "edit_image"
                                          src = {Drone_5}
