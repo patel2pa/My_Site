@@ -22,30 +22,26 @@ class About extends React.Component{
                     </div>
 
                     <div className = "about2">
-
-                    I am a recent engineering graduate from James Madison University 
-                    with experiences in multiple engineering disciplines 
-                    which include Software, Electrical, and Mechanical.
-                    I am currently looking for full-time opportunities in these fields 
-  
-
+                        I am a Software Developer currently working at Kinsale Insuarance. 
+                        I have experience in Fullstack Development and working with technologies 
+                        such as Spring, Angular, SQL and multiple AWS services. 
                     </div>
                     
                     <div className = "about3">
-                    I am curious and competitive by nature and I am fortunate to grow up in circumstances that have allowed me to learn. As an earnest learner, my natural habit has been to consume knowledge from a multitude of sources. 
-                    I have learned from a mixture of online tutorials, videos, books, and conversations with people. 
+                        I created this site back in 2020 as a way to learn React,
+                        CSS and learn about deploying code to production, and I am
+                        always looking to add new skills to my tool box. 
+                        This website contains information about my experiences, contact information, and skills. 
                     </div>
                     <div className = "about4">
-                    Some of the skills that I have developed in the past two months:
+                        Here are some of the skills that I have Developed/Relearned in the past few months:
                     </div>
+
                     <div className = "about5">
-                        <div> - Automation and Manual Testing</div>
-                        <div> - Cypress JS</div>
-                        <div> - Java Springboot</div>
-                        <div> - Typescript</div>
-
+                        <div> - React</div>
+                        <div> - Provisioning Infrastructure</div>
+                        <div> - CSS</div>
                     </div>
-
                 </div>
                 
             <div className="aboutImage">

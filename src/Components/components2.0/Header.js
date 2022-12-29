@@ -15,7 +15,7 @@ class Header extends React.Component{
                     </div>
 
                     <div className = "profession">
-                        Engineer and a Developer
+                        Software Developer 
                     </div>
 
                 </div>

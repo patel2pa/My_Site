@@ -9,7 +9,6 @@ class Header extends React.Component{
                 <div className="logo"><a href="/">Parth</a></div>
                     <ul>
                         <li><a href="/experience">Experience</a></li>
-                        <li><a href="/education">Education</a></li>
                         <li><a href="/contact">Contact</a></li>
                         <li><a href="/">Home</a></li>
                     </ul>

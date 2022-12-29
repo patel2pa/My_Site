@@ -10,12 +10,11 @@ class Project_2 extends Component {
     render(){
         return(
             <div>
+                <Project_5/>   
                 <Project_7/>
                 <Project_4/>   
                 <Project_6/> 
                 <Project_8/>  
-                <Project_5/>   
-                <Project_3/>
             </div>
 
 

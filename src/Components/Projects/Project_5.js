@@ -11,20 +11,6 @@ import Bike_10 from './ProjectImages/Bike_10.jpeg'
 
 class Project_5 extends Component {
 
-    
-        state = {
-            imag: Bike_10
-        }
-
-
-     
-    onClickEvent = (new_img)=>{
-
-        this.setState({
-            imag: new_img
-        })
-    }
-
 
     render(){
         return(
@@ -32,77 +18,29 @@ class Project_5 extends Component {
                    <Grid>
                     
                     <Cell col = {8}>
-                         
-                         <img 
-                                 src = {this.state.imag}
-                                 alt = "avatar"
-                                 style={{height: '500px', width: '750px' }}/>
-                             <Cell col = {12}>
- 
-                             <div >
-                             
-                                <img 
-                                         src = {Bike_10}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_10)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer' }}/> 
-
-                                <img className = "edit_image"
-                                         src = {Bike_2}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_2)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>  
-                                <img className = "edit_image"
-                                         src = {Bike_4}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_4)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>  
-                                <img className = "edit_image"
-                                         src = {Bike_3}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_3)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>  
-                                <img className = "edit_image"
-                                         src = {Bike_1}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_1)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>
-
-                                <img className = "edit_image"
-                                         src = {Bike_6}
-                                         alt = "avatar"
-                                         onClick = {() => this.onClickEvent(Bike_6)}
-                                         onmouseover=""
-                                         style={{height: '50px', cursor: 'pointer'}}/>                       
-                             </div>
- 
-                             </Cell>
- 
-                             
+                        
+                        <div style={{ paddingTop: '5em', color: 'Blue'}} >
+                            <a href='https://www.kinsaleins.com/' target="_blank">Click here for company's site</a>
+                        </div>
+                        
+                         <div style = {{ paddingTop: '2em', paddingTop: '20em'}}>No Images due to Copyrights</div> 
                      </Cell>
  
                      <Cell col={4}> 
-                     <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
-                        <h3 > Human Powered Vehicle</h3>
-                        <h5 style={{borderBottom: '3px solid #010101'}}>Researcher/Prototype Engineer</h5>
-                        The Human Powered Vehicle was part of a 
-                        sophomore design project with an objective 
-                        of utilizing the human-centered process to design 
-                        and manufacture a custom bike for a young community 
-                        member with arthrogryposis. As a researcher,  
-                        I analyzed different components to understand their 
-                        feasibility with other components through conversation 
-                        with experts and online articles. Additionally, 
-                        I was a Prototype engineer, 
-                        I built 6 different prototypes to inspect 
-                        the subsystem facility and communicate the 
-                        design with the client. Through this project, 
-                        I learned the importance of communication and prototyping.  
+                        <div style = {{textAlign: 'center', paddingRight: '3em', paddingTop: '2em'}}>
+                            <h3 > Kinsale Insurance </h3>
+                            
+                            <h5 style={{borderBottom: '3px solid #010101'}}>Software Developer</h5>
+                            I am currently employed at Kinsale Insurance as a Software Developer, 
+                            and January 2023 will mark two years at Kinsale. 
+                            I have learned a great deal from new technical skills to working in an agile environment. 
+                            I have garnered experiences in Spring, Spring Boot, Angular, Angular JS, SQL, 
+                            and multiple AWS services such as Cloud Formation, Lambads, and SQS, to name a few. 
+                            I have had the opportunity to work both in Scrum and Kunban. 
+                            I have mentored new developers, worked closely with QAs, BAs, DevOps, Data Architect, 
+                            Product Owners/Managers and and End Users. I have experience working on production bugs, 
+                            which involved finding and resolving issues in a very short timeframe and refactoring old code and 
+                            developing new features.
                         </div>  
  
                      </Cell>
